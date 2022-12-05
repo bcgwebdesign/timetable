@@ -4,6 +4,6 @@ title = 'Bruce Hugo Site'
 theme = 'kraiklyn_moved'
 
 [[menu.shortcuts]]
-name = "Javascript API"
-url = "https://docs.surfly.com/javascript.html"
+name = "See it on Github"
+url = "https://github.com/bcgwebdesign/timetable"
 weight = 20
