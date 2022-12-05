@@ -1,7 +1,7 @@
 baseURL = 'http://bruce.wsl/'
 languageCode = 'en-us'
 title = 'Bruce Hugo Site'
-theme = 'kraiklyn'
+theme = 'kraiklyn_moved'
 
 [[menu.shortcuts]]
 name = "Javascript API"
