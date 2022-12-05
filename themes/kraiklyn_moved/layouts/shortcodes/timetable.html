@@ -1,0 +1,112 @@
+<br />
+{{ if .Get "options" }}
+<div class="options">
+    <label for="slot-title">Slot Title</label>
+    <input id="slot-title" name="slot-title" type='checkbox' checked/>
+    <label for="slot-time">Slot Time</label>
+    <input id="slot-time" name="slot-time" type='checkbox' checked/>
+    <label for="slot-teacher">Slot Teacher</label>
+    <input id="slot-teacher" name="slot-teacher" type='checkbox' checked/>
+</div>
+{{ end }}
+<div class="timetable">
+    {{ range .Site.Data.timetable.days}}
+
+        <div class="day">
+            <div class="title">{{ .name }}</div>
+
+            {{ range .periods }}
+                <div class="slot {{ .style }}" data-start="{{ .start }}" data-end="{{ .end }}">
+                    <span class='name'><strong>{{ .name }}</strong></span>
+                    <span class='timings'>[{{ .start }} - {{ .end }}]</span>
+                    {{ if .class }}
+                        <div class="theclass">
+                            {{ if eq .style "house" }}
+                                <span class="class">with <span class="teacher">{{ .teacher }}</span>
+                            {{ else }}
+                                <span class="class">{{ .class }}</span> with <span class="teacher">{{ .teacher }}</span>
+                            {{ end }}
+                        </div>
+                    {{ end }}
+                </div>
+            {{ end }}
+        </div>
+    {{ end }}
+</div>
+<script>
+
+    $("#slot-title").click(function() {
+        let titleChecked = $("#slot-title").is(":checked");
+        console.log(titleChecked);
+        $(".name").toggle();
+    });
+
+    $("#slot-time").click(function() {
+        let timeChecked = $("#slot-time").is(":checked");
+        console.log(timeChecked);
+        $(".timings").toggle();
+    });
+    $("#slot-teacher").click(function() {
+        let teacherChecked = $("#slot-teacher").is(":checked");
+        console.log(teacherChecked);
+        $(".theclass").toggle();
+    });
+
+
+    showCurrent();
+    setInterval(function() {
+        showCurrent();
+    }, 60 * 1000);
+
+    function showCurrent() {
+
+        const d = new Date();
+        let day = d.getDay();
+        let hours = d.getHours();
+        let mins = d.getMinutes();
+        
+        // some test values
+        //day = 3;
+        //hours = 13;
+        //mins = 10;
+        
+        currentmins = hours * 60 + mins;
+        console.log(day, hours, mins, currentmins);
+        
+        console.log(currentmins);
+
+        $(function(){
+            //$( ".timetable .day:nth-child(" + day + ")" ).css("border", "2px solid black");
+            $( ".timetable .day:nth-child(" + day + ") .slot" ).each(function( index ) {
+                //$(this).css("border", "2px solid black");
+                let start = $(this).attr("data-start");
+                let end = $(this).attr("data-end");
+                let startArray = start.split(":");
+                let endArray = end.split(":");
+
+                let startmins = parseInt(startArray[0]) * 60 + parseInt(startArray[1]);
+                let endmins = parseInt(endArray[0]) * 60 + parseInt(endArray[1]);
+
+                console.log(start, end, startArray, startmins, endmins);
+
+                if (startmins<=currentmins && currentmins < endmins) {
+                    console.log("THIS ONE");
+                    $(this).addClass('active');
+                    let height = $(this).css('height');
+                    console.log ("height is ", height);
+
+                    let percentthrough = (currentmins-startmins) / (endmins - startmins) * 100;
+                    console.log ("percent is ", percentthrough);
+
+                    $(".progress").remove();
+                    $(this).append("<div class='progress' style='height:" + percentthrough + "%;'></div>");
+                } else {
+                    $(this).removeClass('active');
+                }
+                
+            });
+        });
+    }
+        
+    
+</script>
