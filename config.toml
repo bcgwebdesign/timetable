@@ -1,6 +1,6 @@
 baseURL = 'https://bcgwebdesign.github.io/timetable/'
 languageCode = 'en-us'
-title = 'Bruce Hugo Site'
+title = "Bruce's Hugo Site"
 theme = 'kraiklyn_moved'
 
 [[menu.shortcuts]]
