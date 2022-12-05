@@ -1,0 +1,9 @@
+baseURL = 'http://bruce.wsl/'
+languageCode = 'en-us'
+title = 'Bruce Hugo Site'
+theme = 'kraiklyn'
+
+[[menu.shortcuts]]
+name = "Javascript API"
+url = "https://docs.surfly.com/javascript.html"
+weight = 20
