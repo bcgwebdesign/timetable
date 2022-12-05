@@ -1,20 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Bruce&#39;s Hugo Site</title>
-    <link>http://bruce.wsl/</link>
-    <description>Recent content on Bruce&#39;s Hugo Site</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 28 Jan 2018 22:01:36 +0100</lastBuildDate><atom:link href="http://bruce.wsl/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Timetable</title>
-      <link>http://bruce.wsl/subjects/timetable/</link>
-      <pubDate>Sun, 28 Jan 2018 21:55:52 +0100</pubDate>
-      
-      <guid>http://bruce.wsl/subjects/timetable/</guid>
-      <description>A hugo experiment in timetable management via js Slot TitleSlot TimeSlot TeacherMondayHouse Time[08:50 - 09:04]with TeachiePeriod 1[09:04 - 09:52]English with W ShakespearePeriod 2[09:52 - 10:40]Period 3[10:40 - 11:28]Break[11:28 - 11:43]Period 4[11:43 - 12:31]Period 5[12:31 - 13:19]Lunch[13:19 - 14:09]Period 6[14:09 - 14:57]Period 7[14:57 - 15:45]TuesdayHouse Time[08:50 - 09:04]with TeachiePeriod 1[09:04 - 09:52]Period 2[09:52 - 10:40]Period 3[10:40 - 11:28]Break[11:28 - 11:43]Period 4[11:43 - 12:31]Period 5[12:31 - 13:19]Lunch[13:19 - 14:09]Period 6[14:09 - 14:57]Math with Sheldon CooperPeriod 7[14:57 - 15:45]WednesdayHouse Time[08:50 - 09:04]with xxxPeriod 1[09:04 - 09:52]Period 2[09:52 - 10:40]Period 3[10:40 - 11:28]Break[11:28 - 11:43]Period 4[11:43 - 12:31]Period 5[12:31 - 13:19]Lunch[13:19 - 14:09]Period 6[14:09 - 14:57]Period 7[14:57 - 15:45]ThursdayHouse Time[08:50 - 09:04]with xxxPeriod 1[09:04 - 09:52]Period 2[09:52 - 10:40]Period 3[10:40 - 11:28]Break[11:28 - 11:43]Period 4[11:43 - 12:31]Period 5[12:31 - 13:19]Lunch[13:19 - 14:09]Period 6[14:09 - 14:57]Period 7[14:57 - 15:45]FridayHouse Time[08:50 - 09:00]with xxxPeriod 1[09:00 - 09:48]Period 2[09:48 - 10:36]Period 3[10:36 - 11:24]Break[11:24 - 11:44]Period 4[11:44 - 12:32]Period 5[12:32 - 13:20]n/a[13:20 - 14:09]n/a[14:09 - 14:57]n/a[14:57 - 15:45]</description>
-    </item>
-    
-  </channel>
-</rss>
