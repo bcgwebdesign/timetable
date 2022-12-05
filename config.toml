@@ -1,4 +1,4 @@
-baseURL = 'https://bcgwebdesign.github.io/timetable/'
+baseURL = 'http://bruce.wsl/'
 languageCode = 'en-us'
 title = "Bruce's Hugo Site"
 theme = 'kraiklyn_moved'
