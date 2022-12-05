@@ -1,4 +1,4 @@
-# Timetable [![releasebadge]][release]
+# Timetable [![releasebadge]][release] ![githubworkflow]
 
 Adding back a readme now that this build properly
 
@@ -6,4 +6,5 @@ Adding back a readme now that this build properly
 
 
 [release]: https://github.com/bcgwebdesign/timetable/releases
-[releasebadge]: https://img.shields.io/github/v/release/bcgwebdesign/timetable?style=for-the-badge
+[releasebadge]: https://img.shields.io/github/v/release/bcgwebdesign/timetable?style=flat-square
+[githubworkflow]: https://img.shields.io/github/workflow/status/bcgwebdesign/timetable/GitHub%20Pages?style=flat-square
