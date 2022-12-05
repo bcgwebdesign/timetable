@@ -252,6 +252,10 @@ td{
   position:relative;
   z-index:1;
 }
+.slot.active{
+  background-color:red;
+  color:white;
+}
 .title {
   flex:0;
   font-weight:bold;

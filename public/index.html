@@ -562,8 +562,7 @@
 
                 if (startmins<=currentmins && currentmins < endmins) {
                     console.log("THIS ONE");
-                    $(this).css("background-color", "red");
-                    $(this).css("color", "white");
+                    $(this).addClass('active');
                     let height = $(this).css('height');
                     console.log ("height is ", height);
 
@@ -572,6 +571,8 @@
 
                     $(".progress").remove();
                     $(this).append("<div class='progress' style='height:" + percentthrough + "%;'></div>");
+                } else {
+                    $(this).removeClass('active');
                 }
                 
             });
