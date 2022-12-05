@@ -5,4 +5,4 @@ anchor: "subjects"
 weight: 35
 ---
 
-Some testing subjects
+Some experimental Hugo static builds through github workflow actions
