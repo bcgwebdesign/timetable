@@ -67,8 +67,8 @@
         
         // some test values
         //day = 3;
-        //hours = 13;
-        //mins = 10;
+        //hours = 15;
+        //mins = mins+38;
         
         currentmins = hours * 60 + mins;
         console.log(day, hours, mins, currentmins);
@@ -77,6 +77,8 @@
 
         $(function(){
             //$( ".timetable .day:nth-child(" + day + ")" ).css("border", "2px solid black");
+            
+            $(".progress").remove();
             $( ".timetable .day:nth-child(" + day + ") .slot" ).each(function( index ) {
                 //$(this).css("border", "2px solid black");
                 let start = $(this).attr("data-start");
