@@ -2,22 +2,22 @@
     "days": [
         { "name": "Monday",
             "periods": [
-                { "name" : "House Time", "start" : "08:50", "end" : "09:04", "class" : "House Time", "teacher" : "Teachie", "style": "house"},
-                { "name" : "Period 1",   "start" : "09:04", "end" : "09:52", "class" : "English", "teacher" : "W Shakespeare"},
-                { "name" : "Period 2",   "start" : "09:52", "end" : "10:40"},  
-                { "name" : "Period 3",   "start" : "10:40", "end" : "11:28"},  
+                { "name" : "House Time", "start" : "08:50", "end" : "09:04", "class" : "House Time", "teacher" : "Mr Mclean-Foreman", "style": "house"},
+                { "name" : "Period 1",   "start" : "09:04", "end" : "09:52", "class" : "Chmistry", "teacher" : "Mrs Johnson"},
+                { "name" : "Period 2",   "start" : "09:52", "end" : "10:40", "class" : "Maths", "teacher" : "Ms Johnston"},
+                { "name" : "Period 3",   "start" : "10:40", "end" : "11:28", "class" : "Study"},
                 { "name" : "Break",      "start" : "11:28", "end" : "11:43", "style": "break"},
-                { "name" : "Period 4",   "start" : "11:43", "end" : "12:31"},
-                { "name" : "Period 5",   "start" : "12:31", "end" : "13:19"},
+                { "name" : "Period 4",   "start" : "11:43", "end" : "12:31", "class" : "PSE", "teacher" : "Mrs Boyd"},
+                { "name" : "Period 5",   "start" : "12:31", "end" : "13:19", "class" : "English", "teacher" : "Mrs Stewart"},
                 { "name" : "Lunch",      "start" : "13:19", "end" : "14:09", "style": "lunch"},
-                { "name" : "Period 6",   "start" : "14:09", "end" : "14:57"},
-                { "name" : "Period 7",   "start" : "14:57", "end" : "15:45"}
+                { "name" : "Period 6",   "start" : "14:09", "end" : "14:57", "class" : "Study"},
+                { "name" : "Period 7",   "start" : "14:57", "end" : "15:45", "class" : "Study"}
             ]  
     
         },
         { "name": "Tuesday",
             "periods": [
-                { "name" : "House Time", "start" : "08:50", "end" : "09:04", "class" : "House Time", "teacher" : "Teachie", "style": "house"},
+                { "name" : "House Time", "start" : "08:50", "end" : "09:04", "class" : "House Time", "teacher" : "Mr Mclean-Foreman", "style": "house"},
                 { "name" : "Period 1",   "start" : "09:04", "end" : "09:52"},
                 { "name" : "Period 2",   "start" : "09:52", "end" : "10:40"},  
                 { "name" : "Period 3",   "start" : "10:40", "end" : "11:28"},  
@@ -31,7 +31,7 @@
         },
         { "name": "Wednesday",
             "periods": [
-                { "name" : "House Time", "start" : "08:50", "end" : "09:04", "class" : "House Time", "teacher" : "xxx", "style": "house"},
+                { "name" : "House Time", "start" : "08:50", "end" : "09:04", "class" : "House Time", "teacher" : "Mr Mclean-Foreman", "style": "house"},
                 { "name" : "Period 1",   "start" : "09:04", "end" : "09:52"},
                 { "name" : "Period 2",   "start" : "09:52", "end" : "10:40"},  
                 { "name" : "Period 3",   "start" : "10:40", "end" : "11:28"},  
@@ -45,7 +45,7 @@
         },
         { "name": "Thursday",
             "periods": [
-                { "name" : "House Time", "start" : "08:50", "end" : "09:04", "class" : "House Time", "teacher" : "xxx", "style": "house"},
+                { "name" : "House Time", "start" : "08:50", "end" : "09:04", "class" : "House Time", "teacher" : "Mr Mclean-Foreman", "style": "house"},
                 { "name" : "Period 1",   "start" : "09:04", "end" : "09:52"},
                 { "name" : "Period 2",   "start" : "09:52", "end" : "10:40"},  
                 { "name" : "Period 3",   "start" : "10:40", "end" : "11:28"},  
@@ -59,7 +59,7 @@
         },
         { "name": "Friday",
             "periods": [
-                { "name" : "House Time", "start" : "08:50", "end" : "09:00", "class" : "House Time", "teacher" : "xxx", "style": "house"},
+                { "name" : "House Time", "start" : "08:50", "end" : "09:04", "class" : "House Time", "teacher" : "Mr Mclean-Foreman", "style": "house"},
                 { "name" : "Period 1",   "start" : "09:00", "end" : "09:48"},
                 { "name" : "Period 2",   "start" : "09:48", "end" : "10:36"},  
                 { "name" : "Period 3",   "start" : "10:36", "end" : "11:24"},  
