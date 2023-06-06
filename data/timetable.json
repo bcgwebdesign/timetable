@@ -3,7 +3,7 @@
         { "name": "Monday",
             "periods": [
                 { "name" : "House Time", "start" : "08:50", "end" : "09:04", "class" : "House Time", "teacher" : "Mr Mclean-Foreman", "style": "house"},
-                { "name" : "Period 1",   "start" : "09:04", "end" : "09:52", "class" : "Chmistry", "teacher" : "Mrs Johnson"},
+                { "name" : "Period 1",   "start" : "09:04", "end" : "09:52", "class" : "Chemistry", "teacher" : "Mrs Johnson"},
                 { "name" : "Period 2",   "start" : "09:52", "end" : "10:40", "class" : "Maths", "teacher" : "Ms Johnston"},
                 { "name" : "Period 3",   "start" : "10:40", "end" : "11:28", "class" : "Study", "style": "study"},
                 { "name" : "Break",      "start" : "11:28", "end" : "11:43", "style": "break"},
@@ -32,7 +32,7 @@
         { "name": "Wednesday",
             "periods": [
                 { "name" : "House Time", "start" : "08:50", "end" : "09:04", "class" : "House Time", "teacher" : "Mr Mclean-Foreman", "style": "house"},
-                { "name" : "Period 1",   "start" : "09:04", "end" : "09:52", "class" : "Study"},
+                { "name" : "Period 1",   "start" : "09:04", "end" : "09:52", "class" : "Study", "style": "study"},
                 { "name" : "Period 2",   "start" : "09:52", "end" : "10:40", "class" : "P.E.", "teacher" : "Mr Changleng"},
                 { "name" : "Period 3",   "start" : "10:40", "end" : "11:28", "class" : "Study", "style": "study"},
                 { "name" : "Break",      "start" : "11:28", "end" : "11:43", "style": "break"},
