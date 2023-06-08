@@ -27,7 +27,7 @@
                                     {{ if eq .style "study" }}
                                         <span class="class">{{ .class }}</span>
                                     {{ else }}
-                                        <span class="class">{{ .class }}</span> with <span class="teacher">{{ .teacher }}</span>
+                                        <span class="class">{{ .class }}</span><span class="teacher"> with {{ .teacher }}</span>
                                     {{ end }}
                             {{ end }}
                         </div>
@@ -53,7 +53,7 @@
     $("#slot-teacher").click(function() {
         let teacherChecked = $("#slot-teacher").is(":checked");
         console.log(teacherChecked);
-        $(".theclass").toggle();
+        $(".teacher").toggle();
     });
 
 
