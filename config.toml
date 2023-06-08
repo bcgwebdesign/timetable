@@ -4,6 +4,10 @@ title = "Bruce's Hugo Site"
 theme = 'kraiklyn_moved'
 
 [[menu.shortcuts]]
-name = "See it on Github"
-url = "https://github.com/bcgwebdesign/timetable"
-weight = 20
+    name = "See it on Github"
+    url = "https://github.com/bcgwebdesign/timetable"
+    weight = 20
+[[menu.shortcuts]]
+    name = "And hosted on github pages"
+    url = "https://bcgwebdesign.github.io/timetable"
+    weight = 30
