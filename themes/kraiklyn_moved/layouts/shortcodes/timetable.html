@@ -22,7 +22,7 @@
                     {{ if .class }}
                         <div class="theclass">
                             {{ if eq .style "house" }}
-                                <span class="class">with <span class="teacher">{{ .teacher }}</span>
+                                <span class="class"><span class="teacher">with {{ .teacher }}</span>
                             {{ else }}
                                     {{ if eq .style "study" }}
                                         <span class="class">{{ .class }}</span>
