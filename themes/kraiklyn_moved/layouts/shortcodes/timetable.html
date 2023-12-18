@@ -39,6 +39,11 @@
 </div>
 <script>
 
+    $(document).ready(function () {
+        // Handler for .ready() called.
+        
+    });
+
     $("#slot-title").click(function() {
         let titleChecked = $("#slot-title").is(":checked");
         console.log(titleChecked);
@@ -109,8 +114,13 @@
                 } else {
                     $(this).removeClass('active');
                 }
+
                 
             });
+            
+            $('html, body').animate({
+                scrollTop: $('.active').offset().top
+            }, 'slow');
         });
     }
         
