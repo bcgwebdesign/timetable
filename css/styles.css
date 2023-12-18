@@ -5,6 +5,15 @@ html, body {
 }
 
 @media (min-width: 48em) {
+  .timetable {
+    flex-wrap: nowrap;
+  }
+  .day {
+    width: initial;
+  }
+}
+
+@media (min-width: 48em) {
   html {
     font-size: 16px;
   }
@@ -16,14 +25,17 @@ html, body {
   }
 }
 
-@media (min-width: 48em) {
-  .content {
-    margin-left: 21rem;
-    margin-right: 2rem;
-  }
-}
+
 
 @media (min-width: 64em) {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 16rem;
+    text-align: left;
+  }
   .content {
     margin-left: 19rem;
     margin-right: 3rem;
@@ -66,16 +78,6 @@ html, body {
 }
 .sidebar.sidebar-orange {
   background-color: #DAA35C;
-}
-@media (min-width: 48em) {
-  .sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 16rem;
-    text-align: left;
-  }
 }
 
 .site-title {
@@ -234,14 +236,26 @@ td{
 .timetable {
   display:flex;
   flex-direction: row;
+  flex-wrap: wrap;
   min-height:80vh;
   border:10px solid orange;
 }
+
 .day {
-  flex:1;
-  display:flex;
+  width: 100%;
+  display:block;
   flex-direction:column;
   justify-content: flex-start;
+}
+@media (min-width: 48em) {
+  .timetable {
+    flex-wrap: nowrap;
+  }
+  .day {
+    width: initial;
+    display:flex;
+    flex:1;
+  }
 }
 .slot,.title {
   border:2px dashed orange;

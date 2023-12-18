@@ -1,71 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bruce's Hugo Site</title><link>https://bcgwebdesign.github.io/timetable/</link><description>Recent content on Bruce's Hugo Site</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 28 Jan 2018 22:01:36 +0100</lastBuildDate><atom:link href="https://bcgwebdesign.github.io/timetable/index.xml" rel="self" type="application/rss+xml"/><item><title>Timetable</title><link>https://bcgwebdesign.github.io/timetable/subjects/timetable/</link><pubDate>Sun, 28 Jan 2018 21:55:52 +0100</pubDate><guid>https://bcgwebdesign.github.io/timetable/subjects/timetable/</guid><description>A hugo experiment in timetable management via js Slot Title
-Slot Time
-Slot Teacher
-Monday
-House Time
-[08:50 - 09:04]
-with Mr Mclean-Foreman
-Period 1
-[09:04 - 09:52]
-Chemistry with Mrs Johnson
-Period 2
-[09:52 - 10:40]
-Maths with Ms Johnston
-Period 3
-[10:40 - 11:28]
-Study
-Break
-[11:28 - 11:43]
-Period 4
-[11:43 - 12:31]
-PSE with Mrs Boyd
-Period 5
-[12:31 - 13:19]
-English with Mrs Stewart
-Lunch
-[13:19 - 14:09]
-Period 6
-[14:09 - 14:57]
-Study
-Period 7
-[14:57 - 15:45]
-Study
-Tuesday
-House Time
-[08:50 - 09:04]
-with Mr Mclean-Foreman
-Period 1
-[09:04 - 09:52]
-Computing Studies with Miss Delaney
-Period 2
-[09:52 - 10:40]
-Computing Studies with Miss Delaney
-Period 3
-[10:40 - 11:28]
-Human Biology with Mrs Minto
-Break
-[11:28 - 11:43]
-Period 4
-[11:43 - 12:31]
-Human Biology with Mrs Minto
-Period 5
-[12:31 - 13:19]
-Maths with Ms Johnston
-Lunch
-[13:19 - 14:09]
-Period 6
-[14:09 - 14:57]
-English with Mrs Stewart
-Period 7
-[14:57 - 15:45]
-English with Mrs Stewart
-Wednesday
-House Time
-[08:50 - 09:04]
-with Mr Mclean-Foreman
-Period 1
-[09:04 - 09:52]
-Study
-Period 2
-[09:52 - 10:40]
-P.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bruce's Hugo Site</title><link>https://bcgwebdesign.github.io/timetable/</link><description>Recent content on Bruce's Hugo Site</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 28 Jan 2018 22:01:36 +0100</lastBuildDate><atom:link href="https://bcgwebdesign.github.io/timetable/index.xml" rel="self" type="application/rss+xml"/><item><title>Timetable</title><link>https://bcgwebdesign.github.io/timetable/subjects/timetable/</link><pubDate>Sun, 28 Jan 2018 21:55:52 +0100</pubDate><guid>https://bcgwebdesign.github.io/timetable/subjects/timetable/</guid><description>A hugo experiment in timetable management via js Slot TitleSlot TimeSlot TeacherMondayHouse Time[08:50 - 09:04]with Mr Mclean-ForemanPeriod 1[09:04 - 09:52]Chemistry with Mrs JohnsonPeriod 2[09:52 - 10:40]Maths with Ms JohnstonPeriod 3[10:40 - 11:28]StudyBreak[11:28 - 11:43]Period 4[11:43 - 12:31]PSE with Mrs BoydPeriod 5[12:31 - 13:19]English with Mrs StewartLunch[13:19 - 14:09]Period 6[14:09 - 14:57]StudyPeriod 7[14:57 - 15:45]StudyTuesdayHouse Time[08:50 - 09:04]with Mr Mclean-ForemanPeriod 1[09:04 - 09:52]Computing Studies with Miss DelaneyPeriod 2[09:52 - 10:40]Computing Studies with Miss DelaneyPeriod 3[10:40 - 11:28]Human Biology with Mrs MintoBreak[11:28 - 11:43]Period 4[11:43 - 12:31]Human Biology with Mrs MintoPeriod 5[12:31 - 13:19]Maths with Ms JohnstonLunch[13:19 - 14:09]Period 6[14:09 - 14:57]English with Mrs StewartPeriod 7[14:57 - 15:45]English with Mrs StewartWednesdayHouse Time[08:50 - 09:04]with Mr Mclean-ForemanPeriod 1[09:04 - 09:52]StudyPeriod 2[09:52 - 10:40]P.</description></item></channel></rss>
