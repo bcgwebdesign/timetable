@@ -247,6 +247,10 @@ td{
   flex-direction:column;
   justify-content: flex-start;
 }
+.day .title {
+  background-color:black;
+  color:white;
+}
 @media (min-width: 48em) {
   .timetable {
     flex-wrap: nowrap;
@@ -258,7 +262,7 @@ td{
   }
 }
 .slot,.title {
-  border:2px dashed orange;
+  border:1px dashed orange;
   padding:6px;
 }
 .slot {

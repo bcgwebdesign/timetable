@@ -1,12 +1,18 @@
 <br />
 {{ if .Get "options" }}
 <div class="options">
-    <label for="slot-title">Slot Title</label>
-    <input id="slot-title" name="slot-title" type='checkbox' checked/>
-    <label for="slot-time">Slot Time</label>
-    <input id="slot-time" name="slot-time" type='checkbox' checked/>
-    <label for="slot-teacher">Slot Teacher</label>
-    <input id="slot-teacher" name="slot-teacher" type='checkbox' checked/>
+    <div class="option">
+        <label for="slot-title">Slot Title</label>
+        <input id="slot-title" name="slot-title" type='checkbox' checked/>
+    </div>
+    <div class="option">
+        <label for="slot-time">Slot Time</label>
+        <input id="slot-time" name="slot-time" type='checkbox' checked/>
+    </div>
+    <div class="option">
+        <label for="slot-teacher">Slot Teacher</label>
+        <input id="slot-teacher" name="slot-teacher" type='checkbox' checked/>
+    </div>
 </div>
 {{ end }}
 <div class="timetable">
