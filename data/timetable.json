@@ -4,7 +4,7 @@
             "periods": [
                 { "name" : "House Time", "start" : "08:50", "end" : "09:04", "class" : "House Time", "teacher" : "Miss Maciver", "style": "house"},
                 { "name" : "Period 1",   "start" : "09:04", "end" : "09:52", "class" : "Biology", "teacher" : "Mrs Johnson"},
-                { "name" : "Period 2",   "start" : "09:52", "end" : "10:40", "class" : "Study", "teacher" : "Ms Johnston", "style": "study"},
+                { "name" : "Period 2",   "start" : "09:52", "end" : "10:40", "class" : "Study", "style": "study"},
                 { "name" : "Period 3",   "start" : "10:40", "end" : "11:28", "class" : "Study non-timetabled", "teacher" : "Mr Reid", "style": "study"},
                 { "name" : "Break",      "start" : "11:28", "end" : "11:43", "style": "break"},
                 { "name" : "Period 4",   "start" : "11:43", "end" : "12:31", "class" : "English", "teacher" : "Mr Charles"},
@@ -25,8 +25,8 @@
                 { "name" : "Period 4",   "start" : "11:43", "end" : "12:31", "class" : "Biology", "teacher" : "Dr Walling"},
                 { "name" : "Period 5",   "start" : "12:31", "end" : "13:19", "class" : "Biology", "teacher" : "Dr Walling"},
                 { "name" : "Lunch",      "start" : "13:19", "end" : "14:09", "style": "lunch"},
-                { "name" : "Period 6",   "start" : "14:09", "end" : "14:57", "class" : "Study non-timetabled", "teacher" : "Mr Reid", "style": "study"},
-                { "name" : "Period 7",   "start" : "14:57", "end" : "15:45", "class" : "Study non-timetabled", "teacher" : "Mr Reid", "style": "study"}
+                { "name" : "Period 6",   "start" : "14:09", "end" : "14:57", "class" : "Study non-timetabled", "style": "study"},
+                { "name" : "Period 7",   "start" : "14:57", "end" : "15:45", "class" : "Study non-timetabled", "style": "study"}
             ]     
         },
         { "name": "Wednesday",
@@ -53,8 +53,8 @@
                 { "name" : "Period 4",   "start" : "11:43", "end" : "12:31", "class" : "Biology", "teacher" : "Dr Walling"},
                 { "name" : "Period 5",   "start" : "12:31", "end" : "13:19", "class" : "Biology", "teacher" : "Dr Walling"},
                 { "name" : "Lunch",      "start" : "13:19", "end" : "14:09", "style": "lunch"},
-                { "name" : "Period 6",   "start" : "14:09", "end" : "14:57", "class" : "Study non-timetabled", "teacher" : "Mr Reid", "style": "study"},
-                { "name" : "Period 7",   "start" : "14:57", "end" : "15:45", "class" : "Study non-timetabled", "teacher" : "Mr Reid", "style": "study"}
+                { "name" : "Period 6",   "start" : "14:09", "end" : "14:57", "class" : "Study non-timetabled", "style": "study"},
+                { "name" : "Period 7",   "start" : "14:57", "end" : "15:45", "class" : "Study non-timetabled", "style": "study"}
             ]     
         },
         { "name": "Friday",
@@ -62,8 +62,8 @@
                 { "name" : "House Time", "start" : "08:50", "end" : "09:04", "class" : "House Time", "teacher" : "Miss Maciver", "style": "house"},
                 { "name" : "Period 1",   "start" : "09:00", "end" : "09:48", "class" : "blank"},
                 { "name" : "Period 2",   "start" : "09:48", "end" : "10:36", "class" : "PSE", "teacher" : "Mrs Boyd"},
-                { "name" : "Period 3",   "start" : "10:36", "end" : "11:24", "class" : "blank"},
-                { "name" : "Break",      "start" : "11:24", "end" : "11:44", "style": "break"},
+                { "name" : "Period 3",   "start" : "10:36", "end" : "11:24", "class" : "blank", "style": "study"},
+                { "name" : "Break",      "start" : "11:24", "end" : "11:44", "style": "break", "style": "study"},
                 { "name" : "Period 4",   "start" : "11:44", "end" : "12:32", "class" : "Chemistry", "teacher" : "Mrs McDowell"},
                 { "name" : "Period 5",   "start" : "12:32", "end" : "13:20", "class" : "Chemistry", "teacher" : "Mrs McDowell"},
                 { "name" : "n/a",        "start" : "13:20", "end" : "14:09", "style": "blank"},
