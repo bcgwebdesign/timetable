@@ -2,67 +2,67 @@
     "days": [
         { "name": "Monday",
             "periods": [
-                { "name" : "House Time", "start" : "08:50", "end" : "09:04", "class" : "House Time", "teacher" : "Mr Mclean-Foreman", "style": "house"},
-                { "name" : "Period 1",   "start" : "09:04", "end" : "09:52", "class" : "Chemistry", "teacher" : "Mrs Johnson"},
-                { "name" : "Period 2",   "start" : "09:52", "end" : "10:40", "class" : "Maths", "teacher" : "Ms Johnston"},
-                { "name" : "Period 3",   "start" : "10:40", "end" : "11:28", "class" : "Study", "style": "study"},
+                { "name" : "House Time", "start" : "08:50", "end" : "09:04", "class" : "House Time", "teacher" : "Miss Maciver", "style": "house"},
+                { "name" : "Period 1",   "start" : "09:04", "end" : "09:52", "class" : "Biology", "teacher" : "Mrs Johnson"},
+                { "name" : "Period 2",   "start" : "09:52", "end" : "10:40", "class" : "Study", "teacher" : "Ms Johnston", "style": "study"},
+                { "name" : "Period 3",   "start" : "10:40", "end" : "11:28", "class" : "Study non-timetabled", "teacher" : "Mr Reid", "style": "study"},
                 { "name" : "Break",      "start" : "11:28", "end" : "11:43", "style": "break"},
-                { "name" : "Period 4",   "start" : "11:43", "end" : "12:31", "class" : "PSE", "teacher" : "Mrs Boyd"},
-                { "name" : "Period 5",   "start" : "12:31", "end" : "13:19", "class" : "English", "teacher" : "Mrs Stewart"},
+                { "name" : "Period 4",   "start" : "11:43", "end" : "12:31", "class" : "English", "teacher" : "Mr Charles"},
+                { "name" : "Period 5",   "start" : "12:31", "end" : "13:19", "class" : "English", "teacher" : "Mr Charles"},
                 { "name" : "Lunch",      "start" : "13:19", "end" : "14:09", "style": "lunch"},
-                { "name" : "Period 6",   "start" : "14:09", "end" : "14:57", "class" : "Study", "style": "study"},
-                { "name" : "Period 7",   "start" : "14:57", "end" : "15:45", "class" : "Study", "style": "study"}
+                { "name" : "Period 6",   "start" : "14:09", "end" : "14:57", "class" : "Mathematics", "teacher" : "Ms Johnston"},
+                { "name" : "Period 7",   "start" : "14:57", "end" : "15:45", "class" : "Mathematics", "teacher" : "Ms Johnston"}
             ]  
     
         },
         { "name": "Tuesday",
             "periods": [
-                { "name" : "House Time", "start" : "08:50", "end" : "09:04", "class" : "House Time", "teacher" : "Mr Mclean-Foreman", "style": "house"},
-                { "name" : "Period 1",   "start" : "09:04", "end" : "09:52", "class" : "Computing Studies", "teacher" : "Miss Delaney"},
-                { "name" : "Period 2",   "start" : "09:52", "end" : "10:40", "class" : "Computing Studies", "teacher" : "Miss Delaney"},
-                { "name" : "Period 3",   "start" : "10:40", "end" : "11:28", "class" : "Human Biology", "teacher" : "Mrs Minto"},
+                { "name" : "House Time", "start" : "08:50", "end" : "09:04", "class" : "House Time", "teacher" : "Mrs Black", "style": "house"},
+                { "name" : "Period 1",   "start" : "09:04", "end" : "09:52", "class" : "Study", "style": "study"},
+                { "name" : "Period 2",   "start" : "09:52", "end" : "10:40", "class" : "Study", "style": "study"},
+                { "name" : "Period 3",   "start" : "10:40", "end" : "11:28", "class" : "Chemistry", "teacher" : "Mrs Minto"},
                 { "name" : "Break",      "start" : "11:28", "end" : "11:43", "style": "break"},
-                { "name" : "Period 4",   "start" : "11:43", "end" : "12:31", "class" : "Human Biology", "teacher" : "Mrs Minto"},
-                { "name" : "Period 5",   "start" : "12:31", "end" : "13:19", "class" : "Maths", "teacher" : "Ms Johnston"},
+                { "name" : "Period 4",   "start" : "11:43", "end" : "12:31", "class" : "Biology", "teacher" : "Mrs Minto"},
+                { "name" : "Period 5",   "start" : "12:31", "end" : "13:19", "class" : "Biology", "teacher" : "Ms Johnston"},
                 { "name" : "Lunch",      "start" : "13:19", "end" : "14:09", "style": "lunch"},
-                { "name" : "Period 6",   "start" : "14:09", "end" : "14:57", "class" : "English", "teacher" : "Mrs Stewart"},
-                { "name" : "Period 7",   "start" : "14:57", "end" : "15:45", "class" : "English", "teacher" : "Mrs Stewart"}
+                { "name" : "Period 6",   "start" : "14:09", "end" : "14:57", "class" : "Study non-timetabled", "teacher" : "Mr Reid", "style": "study"},
+                { "name" : "Period 7",   "start" : "14:57", "end" : "15:45", "class" : "Study non-timetabled", "teacher" : "Mr Reid", "style": "study"}
             ]     
         },
         { "name": "Wednesday",
             "periods": [
-                { "name" : "House Time", "start" : "08:50", "end" : "09:04", "class" : "House Time", "teacher" : "Mr Mclean-Foreman", "style": "house"},
-                { "name" : "Period 1",   "start" : "09:04", "end" : "09:52", "class" : "Study", "style": "study"},
-                { "name" : "Period 2",   "start" : "09:52", "end" : "10:40", "class" : "P.E.", "teacher" : "Mr Changleng"},
-                { "name" : "Period 3",   "start" : "10:40", "end" : "11:28", "class" : "Study", "style": "study"},
+                { "name" : "House Time", "start" : "08:50", "end" : "09:04", "class" : "House Time", "teacher" : "Miss Maciver", "style": "house"},
+                { "name" : "Period 1",   "start" : "09:04", "end" : "09:52", "class" : "Mathematics", "style": "study"},
+                { "name" : "Period 2",   "start" : "09:52", "end" : "10:40", "class" : "Mathematics", "teacher" : "Mr Changleng"},
+                { "name" : "Period 3",   "start" : "10:40", "end" : "11:28", "class" : "English", "style": "study"},
                 { "name" : "Break",      "start" : "11:28", "end" : "11:43", "style": "break"},
-                { "name" : "Period 4",   "start" : "11:43", "end" : "12:31", "class" : "Human Biology", "teacher" : "Mrs Minto"},
-                { "name" : "Period 5",   "start" : "12:31", "end" : "13:19", "class" : "Human Biology", "teacher" : "Mrs Minto"},
+                { "name" : "Period 4",   "start" : "11:43", "end" : "12:31", "class" : "Study", "teacher" : "Mrs Minto"},
+                { "name" : "Period 5",   "start" : "12:31", "end" : "13:19", "class" : "Study", "teacher" : "Mrs Minto"},
                 { "name" : "Lunch",      "start" : "13:19", "end" : "14:09", "style": "lunch"},
-                { "name" : "Period 6",   "start" : "14:09", "end" : "14:57", "class" : "Computing Studies", "teacher" : "Miss Delaney"},
-                { "name" : "Period 7",   "start" : "14:57", "end" : "15:45", "class" : "Computing Studies", "teacher" : "Miss Delaney"}
+                { "name" : "Period 6",   "start" : "14:09", "end" : "14:57", "class" : "Chemistry", "teacher" : "Miss Delaney"},
+                { "name" : "Period 7",   "start" : "14:57", "end" : "15:45", "class" : "Chemistry", "teacher" : "Miss Delaney"}
             ]     
         },
         { "name": "Thursday",
             "periods": [
-                { "name" : "House Time", "start" : "08:50", "end" : "09:04", "class" : "House Time", "teacher" : "Mr Mclean-Foreman", "style": "house"},
-                { "name" : "Period 1",   "start" : "09:04", "end" : "09:52", "class" : "Chemisty", "teacher" : "Dr Harkness"},
-                { "name" : "Period 2",   "start" : "09:52", "end" : "10:40", "class" : "Chemistry", "teacher" : "Dr Harkness"},
-                { "name" : "Period 3",   "start" : "10:40", "end" : "11:28", "class" : "Maths", "teacher" : "Ms Johnston"},
+                { "name" : "House Time", "start" : "08:50", "end" : "09:04", "class" : "House Time", "teacher" : "Miss Maciver", "style": "house"},
+                { "name" : "Period 1",   "start" : "09:04", "end" : "09:52", "class" : "English", "teacher" : "Dr Harkness"},
+                { "name" : "Period 2",   "start" : "09:52", "end" : "10:40", "class" : "English", "teacher" : "Dr Harkness"},
+                { "name" : "Period 3",   "start" : "10:40", "end" : "11:28", "class" : "Mathematics", "teacher" : "Ms Johnston"},
                 { "name" : "Break",      "start" : "11:28", "end" : "11:43", "style": "break"},
-                { "name" : "Period 4",   "start" : "11:43", "end" : "12:31", "class" : "Study", "style": "study"},
-                { "name" : "Period 5",   "start" : "12:31", "end" : "13:19", "class" : "Computing Studies", "teacher" : "Miss Delaney"},
+                { "name" : "Period 4",   "start" : "11:43", "end" : "12:31", "class" : "Biology", "style": "study"},
+                { "name" : "Period 5",   "start" : "12:31", "end" : "13:19", "class" : "Biology", "teacher" : "Miss Delaney"},
                 { "name" : "Lunch",      "start" : "13:19", "end" : "14:09", "style": "lunch"},
-                { "name" : "Period 6",   "start" : "14:09", "end" : "14:57", "class" : "English", "teacher" : "Mrs Stewart"},
-                { "name" : "Period 7",   "start" : "14:57", "end" : "15:45", "class" : "English", "teacher" : "Mrs Stewart"}
+                { "name" : "Period 6",   "start" : "14:09", "end" : "14:57", "class" : "Study non-timetabled", "teacher" : "Mr Reid", "style": "study"},
+                { "name" : "Period 7",   "start" : "14:57", "end" : "15:45", "class" : "Study non-timetabled", "teacher" : "Mr Reid", "style": "study"}
             ]     
         },
         { "name": "Friday",
             "periods": [
-                { "name" : "House Time", "start" : "08:50", "end" : "09:04", "class" : "House Time", "teacher" : "Mr Mclean-Foreman", "style": "house"},
-                { "name" : "Period 1",   "start" : "09:00", "end" : "09:48", "class" : "Human Biology", "teacher" : "Mrs Minto"},
-                { "name" : "Period 2",   "start" : "09:48", "end" : "10:36", "class" : "Maths", "teacher" : "Ms Johnston"},
-                { "name" : "Period 3",   "start" : "10:36", "end" : "11:24", "class" : "Maths", "teacher" : "Ms Johnston"},
+                { "name" : "House Time", "start" : "08:50", "end" : "09:04", "class" : "House Time", "teacher" : "Miss Maciver", "style": "house"},
+                { "name" : "Period 1",   "start" : "09:00", "end" : "09:48", "class" : "blank", "teacher" : "Mrs Minto"},
+                { "name" : "Period 2",   "start" : "09:48", "end" : "10:36", "class" : "PSE", "teacher" : "Ms Johnston"},
+                { "name" : "Period 3",   "start" : "10:36", "end" : "11:24", "class" : "blank", "teacher" : "Ms Johnston"},
                 { "name" : "Break",      "start" : "11:24", "end" : "11:44", "style": "break"},
                 { "name" : "Period 4",   "start" : "11:44", "end" : "12:32", "class" : "Chemistry", "teacher" : "Dr Harkness"},
                 { "name" : "Period 5",   "start" : "12:32", "end" : "13:20", "class" : "Chemistry", "teacher" : "Dr Harkness"},
