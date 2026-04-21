@@ -1,10 +1,10 @@
 # Timetable [![releasebadge]][release] ![githubworkflow] ![githubissues] ![githublastcommit]
 
-A Hugo experiment building and hosting on github.
+A Hugo experiment building and hosting on github pages with my own subdomain.
 
 Javascript school timetable with visual time tracker (like google calendar)
 
-[Viewable here](https://bcgwebdesign.github.io/timetable/)
+[Viewable here](https://timetable.bcgweb.co.uk/)
 
 
 [release]: https://github.com/bcgwebdesign/timetable/releases
