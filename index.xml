@@ -1,1 +1,740 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bruce's Hugo Site</title><link>https://bcgwebdesign.github.io/timetable/</link><description>Recent content on Bruce's Hugo Site</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 28 Jan 2018 21:55:52 +0100</lastBuildDate><atom:link href="https://bcgwebdesign.github.io/timetable/index.xml" rel="self" type="application/rss+xml"/><item><title>Timetable</title><link>https://bcgwebdesign.github.io/timetable/subjects/timetable/</link><pubDate>Sun, 28 Jan 2018 21:55:52 +0100</pubDate><guid>https://bcgwebdesign.github.io/timetable/subjects/timetable/</guid><description>A hugo experiment in timetable management via js Slot TitleSlot TimeSlot TeacherMondayHouse Time[08:50 - 09:04]with Miss MaciverPeriod 1[09:04 - 09:52]Biology with Mrs JohnsonPeriod 2[09:52 - 10:40]StudyPeriod 3[10:40 - 11:28]Study non-timetabledBreak[11:28 - 11:43]Period 4[11:43 - 12:31]English with Mr CharlesPeriod 5[12:31 - 13:19]English with Mr CharlesLunch[13:19 - 14:09]Period 6[14:09 - 14:57]Mathematics with Ms JohnstonPeriod 7[14:57 - 15:45]Mathematics with Ms JohnstonTuesdayHouse Time[08:50 - 09:04]with Mrs BlackPeriod 1[09:04 - 09:52]StudyPeriod 2[09:52 - 10:40]StudyPeriod 3[10:40 - 11:28]Chemistry with Mrs McDowellBreak[11:28 - 11:43]Period 4[11:43 - 12:31]Biology with Dr WallingPeriod 5[12:31 - 13:19]Biology with Dr WallingLunch[13:19 - 14:09]Period 6[14:09 - 14:57]Study non-timetabledPeriod 7[14:57 - 15:45]Study non-timetabledWednesdayHouse Time[08:50 - 09:04]with Miss MaciverPeriod 1[09:04 - 09:52]Mathematics with Ms JohnstonPeriod 2[09:52 - 10:40]Mathematics with Ms JohnstonPeriod 3[10:40 - 11:28]English with Mr CharlesBreak[11:28 - 11:43]Period 4[11:43 - 12:31]StudyPeriod 5[12:31 - 13:19]StudyLunch[13:19 - 14:09]Period 6[14:09 - 14:57]Chemistry with Mrs McDowellPeriod 7[14:57 - 15:45]Chemistry with Mrs McDowellThursdayHouse Time[08:50 - 09:04]with Miss MaciverPeriod 1[09:04 - 09:52]English with Mr CharlesPeriod 2[09:52 - 10:40]English with Mr CharlesPeriod 3[10:40 - 11:28]Mathematics with Ms JohnstonBreak[11:28 - 11:43]Period 4[11:43 - 12:31]Biology with Dr WallingPeriod 5[12:31 - 13:19]Biology with Dr WallingLunch[13:19 - 14:09]Period 6[14:09 - 14:57]Study non-timetabledPeriod 7[14:57 - 15:45]Study non-timetabledFridayHouse Time[08:50 - 09:04]with Miss MaciverPeriod 1[09:00 - 09:48]blank with Period 2[09:48 - 10:36]PSE with Mrs BoydPeriod 3[10:36 - 11:24]blankBreak[11:24 - 11:44]Period 4[11:44 - 12:32]Chemistry with Mrs McDowellPeriod 5[12:32 - 13:20]Chemistry with Mrs McDowelln/a[13:20 - 14:09]n/a[14:09 - 14:57]n/a[14:57 - 15:45]</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bruce's Hugo Site</title><link>http://timetable.bcgweb.co.uk/</link><description>Recent content on Bruce's Hugo Site</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 28 Jan 2018 21:55:52 +0100</lastBuildDate><atom:link href="http://timetable.bcgweb.co.uk/index.xml" rel="self" type="application/rss+xml"/><item><title>Timetable</title><link>http://timetable.bcgweb.co.uk/subjects/timetable/</link><pubDate>Sun, 28 Jan 2018 21:55:52 +0100</pubDate><guid>http://timetable.bcgweb.co.uk/subjects/timetable/</guid><description>&lt;p&gt;A hugo experiment in timetable management via js
+&lt;br /&gt;
+
+&lt;div class="options"&gt;
+ &lt;div class="option"&gt;
+ &lt;label for="slot-title"&gt;Slot Title&lt;/label&gt;
+ &lt;input id="slot-title" name="slot-title" type='checkbox' checked/&gt;
+ &lt;/div&gt;
+ &lt;div class="option"&gt;
+ &lt;label for="slot-time"&gt;Slot Time&lt;/label&gt;
+ &lt;input id="slot-time" name="slot-time" type='checkbox' checked/&gt;
+ &lt;/div&gt;
+ &lt;div class="option"&gt;
+ &lt;label for="slot-teacher"&gt;Slot Teacher&lt;/label&gt;
+ &lt;input id="slot-teacher" name="slot-teacher" type='checkbox' checked/&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="timetable"&gt;
+ 
+
+ &lt;div class="day"&gt;
+ &lt;div class="title"&gt;Monday&lt;/div&gt;
+
+ 
+ &lt;div class="slot house" data-start="08:50" data-end="09:04"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;House Time&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[08:50 - 09:04]&lt;/span&gt;
+ 
+ &lt;div class="theclass"&gt;
+ 
+ &lt;span class="class"&gt;&lt;span class="teacher"&gt;with Miss Maciver&lt;/span&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot " data-start="09:04" data-end="09:52"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;Period 1&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[09:04 - 09:52]&lt;/span&gt;
+ 
+ &lt;div class="theclass"&gt;
+ 
+ 
+ &lt;span class="class"&gt;Biology&lt;/span&gt;&lt;span class="teacher"&gt; with Mrs Johnson&lt;/span&gt;
+ 
+ 
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot study" data-start="09:52" data-end="10:40"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;Period 2&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[09:52 - 10:40]&lt;/span&gt;
+ 
+ &lt;div class="theclass"&gt;
+ 
+ 
+ &lt;span class="class"&gt;Study&lt;/span&gt;
+ 
+ 
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot study" data-start="10:40" data-end="11:28"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;Period 3&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[10:40 - 11:28]&lt;/span&gt;
+ 
+ &lt;div class="theclass"&gt;
+ 
+ 
+ &lt;span class="class"&gt;Study non-timetabled&lt;/span&gt;
+ 
+ 
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot break" data-start="11:28" data-end="11:43"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;Break&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[11:28 - 11:43]&lt;/span&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot " data-start="11:43" data-end="12:31"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;Period 4&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[11:43 - 12:31]&lt;/span&gt;
+ 
+ &lt;div class="theclass"&gt;
+ 
+ 
+ &lt;span class="class"&gt;English&lt;/span&gt;&lt;span class="teacher"&gt; with Mr Charles&lt;/span&gt;
+ 
+ 
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot " data-start="12:31" data-end="13:19"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;Period 5&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[12:31 - 13:19]&lt;/span&gt;
+ 
+ &lt;div class="theclass"&gt;
+ 
+ 
+ &lt;span class="class"&gt;English&lt;/span&gt;&lt;span class="teacher"&gt; with Mr Charles&lt;/span&gt;
+ 
+ 
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot lunch" data-start="13:19" data-end="14:09"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;Lunch&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[13:19 - 14:09]&lt;/span&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot " data-start="14:09" data-end="14:57"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;Period 6&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[14:09 - 14:57]&lt;/span&gt;
+ 
+ &lt;div class="theclass"&gt;
+ 
+ 
+ &lt;span class="class"&gt;Mathematics&lt;/span&gt;&lt;span class="teacher"&gt; with Ms Johnston&lt;/span&gt;
+ 
+ 
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot " data-start="14:57" data-end="15:45"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;Period 7&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[14:57 - 15:45]&lt;/span&gt;
+ 
+ &lt;div class="theclass"&gt;
+ 
+ 
+ &lt;span class="class"&gt;Mathematics&lt;/span&gt;&lt;span class="teacher"&gt; with Ms Johnston&lt;/span&gt;
+ 
+ 
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ 
+
+ &lt;div class="day"&gt;
+ &lt;div class="title"&gt;Tuesday&lt;/div&gt;
+
+ 
+ &lt;div class="slot house" data-start="08:50" data-end="09:04"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;House Time&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[08:50 - 09:04]&lt;/span&gt;
+ 
+ &lt;div class="theclass"&gt;
+ 
+ &lt;span class="class"&gt;&lt;span class="teacher"&gt;with Mrs Black&lt;/span&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot study" data-start="09:04" data-end="09:52"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;Period 1&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[09:04 - 09:52]&lt;/span&gt;
+ 
+ &lt;div class="theclass"&gt;
+ 
+ 
+ &lt;span class="class"&gt;Study&lt;/span&gt;
+ 
+ 
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot study" data-start="09:52" data-end="10:40"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;Period 2&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[09:52 - 10:40]&lt;/span&gt;
+ 
+ &lt;div class="theclass"&gt;
+ 
+ 
+ &lt;span class="class"&gt;Study&lt;/span&gt;
+ 
+ 
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot " data-start="10:40" data-end="11:28"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;Period 3&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[10:40 - 11:28]&lt;/span&gt;
+ 
+ &lt;div class="theclass"&gt;
+ 
+ 
+ &lt;span class="class"&gt;Chemistry&lt;/span&gt;&lt;span class="teacher"&gt; with Mrs McDowell&lt;/span&gt;
+ 
+ 
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot break" data-start="11:28" data-end="11:43"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;Break&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[11:28 - 11:43]&lt;/span&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot " data-start="11:43" data-end="12:31"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;Period 4&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[11:43 - 12:31]&lt;/span&gt;
+ 
+ &lt;div class="theclass"&gt;
+ 
+ 
+ &lt;span class="class"&gt;Biology&lt;/span&gt;&lt;span class="teacher"&gt; with Dr Walling&lt;/span&gt;
+ 
+ 
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot " data-start="12:31" data-end="13:19"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;Period 5&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[12:31 - 13:19]&lt;/span&gt;
+ 
+ &lt;div class="theclass"&gt;
+ 
+ 
+ &lt;span class="class"&gt;Biology&lt;/span&gt;&lt;span class="teacher"&gt; with Dr Walling&lt;/span&gt;
+ 
+ 
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot lunch" data-start="13:19" data-end="14:09"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;Lunch&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[13:19 - 14:09]&lt;/span&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot study" data-start="14:09" data-end="14:57"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;Period 6&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[14:09 - 14:57]&lt;/span&gt;
+ 
+ &lt;div class="theclass"&gt;
+ 
+ 
+ &lt;span class="class"&gt;Study non-timetabled&lt;/span&gt;
+ 
+ 
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot study" data-start="14:57" data-end="15:45"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;Period 7&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[14:57 - 15:45]&lt;/span&gt;
+ 
+ &lt;div class="theclass"&gt;
+ 
+ 
+ &lt;span class="class"&gt;Study non-timetabled&lt;/span&gt;
+ 
+ 
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ 
+
+ &lt;div class="day"&gt;
+ &lt;div class="title"&gt;Wednesday&lt;/div&gt;
+
+ 
+ &lt;div class="slot house" data-start="08:50" data-end="09:04"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;House Time&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[08:50 - 09:04]&lt;/span&gt;
+ 
+ &lt;div class="theclass"&gt;
+ 
+ &lt;span class="class"&gt;&lt;span class="teacher"&gt;with Miss Maciver&lt;/span&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot " data-start="09:04" data-end="09:52"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;Period 1&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[09:04 - 09:52]&lt;/span&gt;
+ 
+ &lt;div class="theclass"&gt;
+ 
+ 
+ &lt;span class="class"&gt;Mathematics&lt;/span&gt;&lt;span class="teacher"&gt; with Ms Johnston&lt;/span&gt;
+ 
+ 
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot " data-start="09:52" data-end="10:40"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;Period 2&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[09:52 - 10:40]&lt;/span&gt;
+ 
+ &lt;div class="theclass"&gt;
+ 
+ 
+ &lt;span class="class"&gt;Mathematics&lt;/span&gt;&lt;span class="teacher"&gt; with Ms Johnston&lt;/span&gt;
+ 
+ 
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot " data-start="10:40" data-end="11:28"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;Period 3&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[10:40 - 11:28]&lt;/span&gt;
+ 
+ &lt;div class="theclass"&gt;
+ 
+ 
+ &lt;span class="class"&gt;English&lt;/span&gt;&lt;span class="teacher"&gt; with Mr Charles&lt;/span&gt;
+ 
+ 
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot break" data-start="11:28" data-end="11:43"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;Break&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[11:28 - 11:43]&lt;/span&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot study" data-start="11:43" data-end="12:31"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;Period 4&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[11:43 - 12:31]&lt;/span&gt;
+ 
+ &lt;div class="theclass"&gt;
+ 
+ 
+ &lt;span class="class"&gt;Study&lt;/span&gt;
+ 
+ 
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot study" data-start="12:31" data-end="13:19"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;Period 5&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[12:31 - 13:19]&lt;/span&gt;
+ 
+ &lt;div class="theclass"&gt;
+ 
+ 
+ &lt;span class="class"&gt;Study&lt;/span&gt;
+ 
+ 
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot lunch" data-start="13:19" data-end="14:09"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;Lunch&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[13:19 - 14:09]&lt;/span&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot " data-start="14:09" data-end="14:57"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;Period 6&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[14:09 - 14:57]&lt;/span&gt;
+ 
+ &lt;div class="theclass"&gt;
+ 
+ 
+ &lt;span class="class"&gt;Chemistry&lt;/span&gt;&lt;span class="teacher"&gt; with Mrs McDowell&lt;/span&gt;
+ 
+ 
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot " data-start="14:57" data-end="15:45"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;Period 7&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[14:57 - 15:45]&lt;/span&gt;
+ 
+ &lt;div class="theclass"&gt;
+ 
+ 
+ &lt;span class="class"&gt;Chemistry&lt;/span&gt;&lt;span class="teacher"&gt; with Mrs McDowell&lt;/span&gt;
+ 
+ 
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ 
+
+ &lt;div class="day"&gt;
+ &lt;div class="title"&gt;Thursday&lt;/div&gt;
+
+ 
+ &lt;div class="slot house" data-start="08:50" data-end="09:04"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;House Time&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[08:50 - 09:04]&lt;/span&gt;
+ 
+ &lt;div class="theclass"&gt;
+ 
+ &lt;span class="class"&gt;&lt;span class="teacher"&gt;with Miss Maciver&lt;/span&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot " data-start="09:04" data-end="09:52"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;Period 1&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[09:04 - 09:52]&lt;/span&gt;
+ 
+ &lt;div class="theclass"&gt;
+ 
+ 
+ &lt;span class="class"&gt;English&lt;/span&gt;&lt;span class="teacher"&gt; with Mr Charles&lt;/span&gt;
+ 
+ 
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot " data-start="09:52" data-end="10:40"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;Period 2&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[09:52 - 10:40]&lt;/span&gt;
+ 
+ &lt;div class="theclass"&gt;
+ 
+ 
+ &lt;span class="class"&gt;English&lt;/span&gt;&lt;span class="teacher"&gt; with Mr Charles&lt;/span&gt;
+ 
+ 
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot " data-start="10:40" data-end="11:28"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;Period 3&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[10:40 - 11:28]&lt;/span&gt;
+ 
+ &lt;div class="theclass"&gt;
+ 
+ 
+ &lt;span class="class"&gt;Mathematics&lt;/span&gt;&lt;span class="teacher"&gt; with Ms Johnston&lt;/span&gt;
+ 
+ 
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot break" data-start="11:28" data-end="11:43"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;Break&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[11:28 - 11:43]&lt;/span&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot " data-start="11:43" data-end="12:31"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;Period 4&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[11:43 - 12:31]&lt;/span&gt;
+ 
+ &lt;div class="theclass"&gt;
+ 
+ 
+ &lt;span class="class"&gt;Biology&lt;/span&gt;&lt;span class="teacher"&gt; with Dr Walling&lt;/span&gt;
+ 
+ 
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot " data-start="12:31" data-end="13:19"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;Period 5&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[12:31 - 13:19]&lt;/span&gt;
+ 
+ &lt;div class="theclass"&gt;
+ 
+ 
+ &lt;span class="class"&gt;Biology&lt;/span&gt;&lt;span class="teacher"&gt; with Dr Walling&lt;/span&gt;
+ 
+ 
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot lunch" data-start="13:19" data-end="14:09"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;Lunch&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[13:19 - 14:09]&lt;/span&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot study" data-start="14:09" data-end="14:57"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;Period 6&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[14:09 - 14:57]&lt;/span&gt;
+ 
+ &lt;div class="theclass"&gt;
+ 
+ 
+ &lt;span class="class"&gt;Study non-timetabled&lt;/span&gt;
+ 
+ 
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot study" data-start="14:57" data-end="15:45"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;Period 7&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[14:57 - 15:45]&lt;/span&gt;
+ 
+ &lt;div class="theclass"&gt;
+ 
+ 
+ &lt;span class="class"&gt;Study non-timetabled&lt;/span&gt;
+ 
+ 
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ 
+
+ &lt;div class="day"&gt;
+ &lt;div class="title"&gt;Friday&lt;/div&gt;
+
+ 
+ &lt;div class="slot house" data-start="08:50" data-end="09:04"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;House Time&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[08:50 - 09:04]&lt;/span&gt;
+ 
+ &lt;div class="theclass"&gt;
+ 
+ &lt;span class="class"&gt;&lt;span class="teacher"&gt;with Miss Maciver&lt;/span&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot " data-start="09:00" data-end="09:48"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;Period 1&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[09:00 - 09:48]&lt;/span&gt;
+ 
+ &lt;div class="theclass"&gt;
+ 
+ 
+ &lt;span class="class"&gt;blank&lt;/span&gt;&lt;span class="teacher"&gt; with &lt;/span&gt;
+ 
+ 
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot " data-start="09:48" data-end="10:36"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;Period 2&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[09:48 - 10:36]&lt;/span&gt;
+ 
+ &lt;div class="theclass"&gt;
+ 
+ 
+ &lt;span class="class"&gt;PSE&lt;/span&gt;&lt;span class="teacher"&gt; with Mrs Boyd&lt;/span&gt;
+ 
+ 
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot study" data-start="10:36" data-end="11:24"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;Period 3&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[10:36 - 11:24]&lt;/span&gt;
+ 
+ &lt;div class="theclass"&gt;
+ 
+ 
+ &lt;span class="class"&gt;blank&lt;/span&gt;
+ 
+ 
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot study" data-start="11:24" data-end="11:44"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;Break&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[11:24 - 11:44]&lt;/span&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot " data-start="11:44" data-end="12:32"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;Period 4&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[11:44 - 12:32]&lt;/span&gt;
+ 
+ &lt;div class="theclass"&gt;
+ 
+ 
+ &lt;span class="class"&gt;Chemistry&lt;/span&gt;&lt;span class="teacher"&gt; with Mrs McDowell&lt;/span&gt;
+ 
+ 
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot " data-start="12:32" data-end="13:20"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;Period 5&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[12:32 - 13:20]&lt;/span&gt;
+ 
+ &lt;div class="theclass"&gt;
+ 
+ 
+ &lt;span class="class"&gt;Chemistry&lt;/span&gt;&lt;span class="teacher"&gt; with Mrs McDowell&lt;/span&gt;
+ 
+ 
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot blank" data-start="13:20" data-end="14:09"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;n/a&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[13:20 - 14:09]&lt;/span&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot blank" data-start="14:09" data-end="14:57"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;n/a&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[14:09 - 14:57]&lt;/span&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;div class="slot blank" data-start="14:57" data-end="15:45"&gt;
+ &lt;span class='name'&gt;&lt;strong&gt;n/a&lt;/strong&gt;&lt;/span&gt;
+ &lt;span class='timings'&gt;[14:57 - 15:45]&lt;/span&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;/div&gt;
+ 
+&lt;/div&gt;
+&lt;script&gt;
+
+ $(document).ready(function () {
+ 
+ 
+ });
+
+ $("#slot-title").click(function() {
+ let titleChecked = $("#slot-title").is(":checked");
+ console.log(titleChecked);
+ $(".name").toggle();
+ });
+
+ $("#slot-time").click(function() {
+ let timeChecked = $("#slot-time").is(":checked");
+ console.log(timeChecked);
+ $(".timings").toggle();
+ });
+ $("#slot-teacher").click(function() {
+ let teacherChecked = $("#slot-teacher").is(":checked");
+ console.log(teacherChecked);
+ $(".teacher").toggle();
+ });
+
+
+ showCurrent();
+ setInterval(function() {
+ showCurrent();
+ }, 60 * 1000);
+
+ function showCurrent() {
+
+ const d = new Date();
+ let day = d.getDay();
+ let hours = d.getHours();
+ let mins = d.getMinutes();
+ 
+ 
+ 
+ 
+ 
+ 
+ currentmins = hours * 60 + mins;
+ console.log(day, hours, mins, currentmins);
+ 
+ console.log(currentmins);
+
+ $(function(){
+ 
+ 
+ $(".progress").remove();
+ $( ".timetable .day:nth-child(" + day + ") .slot" ).each(function( index ) {
+ 
+ let start = $(this).attr("data-start");
+ let end = $(this).attr("data-end");
+ let startArray = start.split(":");
+ let endArray = end.split(":");
+
+ let startmins = parseInt(startArray[0]) * 60 + parseInt(startArray[1]);
+ let endmins = parseInt(endArray[0]) * 60 + parseInt(endArray[1]);
+
+ console.log(start, end, startArray, startmins, endmins);
+
+ if (startmins&lt;=currentmins &amp;&amp; currentmins &lt; endmins) {
+ console.log("THIS ONE");
+ $(this).addClass('active');
+ let height = $(this).css('height');
+ console.log ("height is ", height);
+
+ let percentthrough = (currentmins-startmins) / (endmins - startmins) * 100;
+ console.log ("percent is ", percentthrough);
+
+ $(".progress").remove();
+ $(this).append("&lt;div class='progress' style='height:" + percentthrough + "%;'&gt;&lt;/div&gt;");
+ } else {
+ $(this).removeClass('active');
+ }
+
+ 
+ });
+ 
+ $('html, body').animate({
+ scrollTop: $('.active').offset().top
+ }, 'slow');
+ });
+ }
+ 
+ 
+&lt;/script&gt;
+&lt;/p&gt;</description></item></channel></rss>
